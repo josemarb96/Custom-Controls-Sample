@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="CustomControlsSample_CS.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CustomControlsSample_CS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:CustomControlsSample_CS.Control_User"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <controls:FichaAlumno StudentName="Calamardo" Age="40"></controls:FichaAlumno>
+        <controls:FichaAlumno StudentName="Patricio" Age="20" Profile="../Assets/patricio.png"></controls:FichaAlumno>
+    </StackPanel>
+</Page>
+
